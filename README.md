@@ -18,5 +18,5 @@ The process is repeated until the image is resized to the target dimensions.
 
 **Commands to compile and execute:**
             
-        $ g++ 2025201006_A1_Q1.cpp -o q1 $(pkg-config --cflags --libs opencv4)
-        $ ./q1 ./input_path req_width req_height
+        $ g++ seam_carving.cpp -o seam $(pkg-config --cflags --libs opencv4)
+        $ ./seam ./input_path req_width req_height
